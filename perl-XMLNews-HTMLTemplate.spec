@@ -9,7 +9,7 @@ Summary(pl):	Modu³ Perla XMLNews::HTMLTemplate - konwersja NITF do HTML-a
 Name:		perl-XMLNews-HTMLTemplate
 Version:	0.01
 Release:	3
-License:	Free
+License:	free
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/DMEGG/%{pnam}-%{version}.tar.gz
 # Source0-md5:	936eafa6325978be17cf6d94ff5fdf6f
