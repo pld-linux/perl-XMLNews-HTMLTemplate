@@ -7,14 +7,14 @@ Summary:	XMLNews::HTMLTemplate Perl module - for converting NITF to HTML
 Summary(pl):	Modu³ Perla XMLNews::HTMLTemplate - konwertuj±cy NITF do HTML
 Name:		perl-XMLNews-HTMLTemplate
 Version:	0.01
-Release:	2
+Release:	3
 License:	Free
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/DMEGG/%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-XML-Parser
 BuildRequires:	perl-XMLNews-Meta
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -34,7 +34,8 @@ HTML (w wersji SGML lub XML) ze specjalnymi poleceniami.
 %setup -q -n %{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -51,5 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/XMLNews/HTMLTemplate.pm
+%{perl_vendorlib}/XMLNews/HTMLTemplate.pm
 %{_mandir}/man3/*
