@@ -7,8 +7,8 @@ Summary:	XMLNews::HTMLTemplate Perl module - for converting NITF to HTML
 Summary(pl):	Modu³ Perla XMLNews::HTMLTemplate - konwertuj±cy NITF do HTML
 Name:		perl-XMLNews-HTMLTemplate
 Version:	0.01
-Release:	1
-License:	free
+Release:	2
+License:	Free
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/DMEGG/%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
