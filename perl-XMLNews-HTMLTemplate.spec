@@ -11,7 +11,7 @@ Release:	3
 License:	Free
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/DMEGG/%{pnam}-%{version}.tar.gz
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-XML-Parser
 BuildRequires:	perl-XMLNews-Meta
 BuildRequires:	rpm-perlprov >= 4.1-13
