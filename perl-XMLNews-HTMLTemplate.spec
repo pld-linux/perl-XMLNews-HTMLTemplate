@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	XMLNews-HTMLTemplate
 Summary:	XMLNews::HTMLTemplate Perl module - for converting NITF to HTML
-Summary(pl):	Modu³ Perla XMLNews::HTMLTemplate - konwersja NITF do HTML-a
+Summary(pl.UTF-8):   ModuÅ‚ Perla XMLNews::HTMLTemplate - konwersja NITF do HTML-a
 Name:		perl-XMLNews-HTMLTemplate
 Version:	0.01
 Release:	4
@@ -26,10 +26,10 @@ creating HTML pages from XML/NITF news stories and/or XML/RDF metadata
 files based on a user-supplied template file. The template is a simple
 HTML file (SGML or XML flavour) using special template commands.
 
-%description -l pl
-Modu³ XMLNews::HTMLTemplate udostêpnia prosty mechanizm do tworzenia
-stron HTML z artyku³ów XML/NITF i/lub plików metadanych XML/RDF,
-bazuj±c na podanym pliku z szablonem. Szablon jest prostym plikiem
+%description -l pl.UTF-8
+ModuÅ‚ XMLNews::HTMLTemplate udostÄ™pnia prosty mechanizm do tworzenia
+stron HTML z artykuÅ‚Ã³w XML/NITF i/lub plikÃ³w metadanych XML/RDF,
+bazujÄ…c na podanym pliku z szablonem. Szablon jest prostym plikiem
 HTML (w wersji SGML lub XML) ze specjalnymi poleceniami.
 
 %prep
