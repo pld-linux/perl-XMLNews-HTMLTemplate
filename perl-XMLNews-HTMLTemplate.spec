@@ -1,9 +1,9 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pnam	XMLNews-HTMLTemplate
+%include	/usr/lib/rpm/macros.perl
 Summary:	XMLNews::HTMLTemplate Perl module - for converting NITF to HTML
 Summary(pl.UTF-8):	Moduł Perla XMLNews::HTMLTemplate - konwersja NITF do HTML-a
 Name:		perl-XMLNews-HTMLTemplate
@@ -13,9 +13,10 @@ License:	free
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/D/DM/DMEGG/%{pnam}-%{version}.tar.gz
 # Source0-md5:	936eafa6325978be17cf6d94ff5fdf6f
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/XMLNews-HTMLTemplate/
 BuildRequires:	perl-XML-Parser
 BuildRequires:	perl-XMLNews-Meta
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
