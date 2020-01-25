@@ -3,7 +3,6 @@
 %bcond_without	tests	# do not perform "make test"
 
 %define		pnam	XMLNews-HTMLTemplate
-%include	/usr/lib/rpm/macros.perl
 Summary:	XMLNews::HTMLTemplate Perl module - for converting NITF to HTML
 Summary(pl.UTF-8):	Moduł Perla XMLNews::HTMLTemplate - konwersja NITF do HTML-a
 Name:		perl-XMLNews-HTMLTemplate
